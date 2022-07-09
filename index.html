@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+
     <header class="page-header">
       <a class="navigation-logo">
         <img class="logo" src="images/logo.svg" width="138" height="70" alt="Логотип Седоны">
@@ -36,43 +38,45 @@
               </span>
             </a>
           </li>
-          <li class="navigation-item navigation-button">
-            <a class="navigation-link " href="#">Хочу сюда</a>
+          <li class="navigation-item">
+            <button class="button" type="button">Хочу сюда</button>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
+
       <section class="welcome">
         <img class="welcome-logo" src="images/welcome.svg" width="458" height="352" alt="Добро пожаловать">
         <h2 class="welcome-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="welcome-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
+
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item advantages-blue">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-number">— №1 —</p>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="advantages-photo" src="images/sedona-photo.jpg" width="800" height="384" alt="Седона">
-            <ul class="advantages-list">
-              <li class="advantages-item">
+            <ul class="advantages-sublist">
+              <li class="advantages-subitem">
                 <h3 class="advantages-title">Жильё</h3>
                 <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
-              <li class="advantages-item">
+              <li class="advantages-subitem">
                 <h3 class="advantages-title">Еда</h3>
                 <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
-              <li class="advantages-item">
+              <li class="advantages-subitem">
                 <h3 class="advantages-title">Сувениры</h3>
                 <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
               </li>
             </ul>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item advantages-blue">
             <img class="advantages-photo" src="images/devils-bridge-photo.jpg" width="800" height="384" alt="Мост дьявола">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-number">— №2 —</p>
@@ -95,20 +99,23 @@
           </li>
         </ul>
       </section>
+
       <section class="hotel-search">
         <h2 class="search-title">Заинтересовались?</h2>
         <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="hotel-search-button" type="button">Поиск гостиницы в Седоне</a>
+        <button class="button-big" type="button">Поиск гостиницы в Седоне</a>
       </section>
+
       <section class="newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-        <p class="description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" type="email" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" required>
-          <button class="button newsletter-button" type="submit">Подписаться</button>
+          <button class="button-big button-blue" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
+
     <footer class="page-footer">
       <section class="footer-social">
         <h2 class="visually-hidden">Соцсети</h2>
@@ -130,6 +137,7 @@
           </li>
         </ul>
       </section>
+
       <section class="footer-contacts">
         <h2 class="visually-hidden">Телефон</h2>
         <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
