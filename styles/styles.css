@@ -1,0 +1,277 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.page-container {
+  background-color: #ffffff;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-blue {
+  background-color: #82B3D3;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.welcome {
+  background-color: #496d82;
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.welcome-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.welcome-description {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: #333333;
+}
+
+.advantages-item-blue {
+  background-color: #82B3D3;
+}
+
+.advantages-item-blue .advantages-title {
+  color: #ffffff;
+}
+
+.advantages-item-blue .advantages-description {
+  color: #ffffff;
+}
+
+.advantages-item-blue .advantages-number {
+  color: #ffffff;
+}
+
+.advantages-subitem .advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-subitem .advantages-description {
+  color: #333333;
+}
+
+.advantages-item-base-bg {
+  background-color: #ffffff;
+}
+
+.advantages-item-second-bg {
+  background-color: #F0F5F9;
+}
+
+.advantages-item-third-bg {
+  background-color: #E6F0F6;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-description {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.newsletter {
+  background-color: #496d82;
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+
+.newsletter-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.newsletter-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.footer-phone {
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.inner-header {
+  background-color: #496d82;
+  background-image: url("../images/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.main-inner {
+  background-color: #ffffff;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.reset-button {
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+}
+
+.hotel-list {
+  background-color: #ffffff;
+}
+
+.hotel-card-link {
+  text-decoration: none;
+}
+
+.hotel-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-card-type {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.favorite-button {
+  background: #7DB54F;
+}
+
+.pagination-link {
+  background: #82B3D3;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-link-current {
+  background: #F2F2F2;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.newsletter-catalog {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+.newsletter-catalog .newsletter-title {
+  color: #000000;
+}
+
+.newsletter-catalog .newsletter-description {
+  color: #333333;
+}
