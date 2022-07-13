@@ -60,6 +60,12 @@ body {
   background-color: #82B3D3;
 }
 
+.clear-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .page-header {
   padding-left: 70px;
   padding-right: 70px;
@@ -70,8 +76,6 @@ body {
 }
 
 .navigation-list {
-  padding: 0;
-  margin: 0;
   width: 500px;
 }
 
@@ -97,6 +101,13 @@ body {
   background-size: 100% auto;
 }
 
+.welcome-container {
+  background-image: url("../images/divider.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 .welcome-title {
   font-weight: 700;
   font-size: 30px;
@@ -113,8 +124,6 @@ body {
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
 }
 
 .advantages-title {
@@ -279,7 +288,6 @@ body {
 }
 
 .catalog-filter-list {
-  padding: 0;
   margin-right: 70px;
 }
 
